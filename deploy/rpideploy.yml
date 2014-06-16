@@ -15,6 +15,8 @@
       command: killall gpsd
       notify:
         - Restart gpsd
+    - name: copy distro
+      copy: src=distro/gps-datalogger dest=/usr/local owner=root group=root mode=644 backup=yes
 
   handlers:
     - name: Restart gpsd
