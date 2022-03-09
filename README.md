@@ -1,3 +1,5 @@
+⚠️ This repo is obsolete.  It is developed against a version of Couchbase Lite that reached end of life years ago.
+
 gps-datalogger-rpi
 ==================
 
